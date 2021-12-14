@@ -27,7 +27,7 @@
 	<div class="header" style="margin-top: -10px;">
 		<h1 class="judul" style="font-family: Commissioner;">green.visual</h1>
 		<ul>
-			<li><a href="masukadm.php" style="margin-right: 30px;">Tabel</a></li>
+			<li><a href="masuked.php" style="margin-right: 30px;">Tabel</a></li>
 			</ul>
 	</div>
 

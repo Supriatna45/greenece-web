@@ -42,14 +42,14 @@
                     if($result2){
                         $_SESSION['usernamel'] = $usernamel;
                         $_SESSION['passowrdl'] = $result2['passwordl'];
-                        header("Location: masukadm.php");
+                        header("Location: masuked.php");
                     }else{
                         echo '<div class = "alert alert-danger d-flex justify-content-center"> Username or Password is incorrect! Please try again! </div>';
                     }
                 }else if($result){
                     $_SESSION['usernamel'] = $usernamel;
                     $_SESSION['passowrdl'] = $result['passwordl'];
-                    header("Location: masuked.php");
+                    header("Location: masukadm.php");
                 }else{
                   echo '<div class = "alert alert-danger d-flex justify-content-center"> Username or Password is incorrect! Please try again! </div>';
                 }
@@ -58,10 +58,10 @@
         <form action = "<?php echo htmlentities($_SERVER['PHP_SELF']); ?>" method="post" style="margin-top: -50px;">
             <br>
                 <label for="usernamel" style="color: white;">Username</label>
-                <input required type="text" class="form-control" id="usernamel" name="usernamel">
+                <input required type="text" class="form-control" id="usernamel" name="usernamel" style="width:500px">
             <br>
                 <label for="passwordl" style="color: white;">Password</label>
-                <input required type="password" require class="form-control" id="passwordl" name="passwordl">
+                <input required type="password" require class="form-control" id="passwordl" name="passwordl" style="width:500px">
             <br>
             <br>
             <button style="background-color:#37517e; border-color: #37517e;" type="submit" name="submit" class="btn btn-primary btn-md">Submit</button>
