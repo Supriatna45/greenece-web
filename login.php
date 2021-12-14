@@ -37,18 +37,18 @@
 
                 $result = $user->getAdmin($usernamel, $passwordl);
                 if(!$result){
-                    $result2 = $user->getDosen($usernamel, $passwordl);
+                    $result2 = $user->getEditor($usernamel, $passwordl);
                     if($result2){
                         $_SESSION['usernamel'] = $usernamel;
                         $_SESSION['passowrdl'] = $result2['passwordl'];
-                        header("Location: masuked.php");
+                        header("Location: masukadm.php");
                     }else{
                         echo '<div class = "alert alert-danger d-flex justify-content-center"> Username or Password is incorrect! Please try again! </div>';
                     }
                 }else if($result){
                     $_SESSION['usernamel'] = $usernamel;
                     $_SESSION['passowrdl'] = $result['passwordl'];
-                    header("Location: masukadm.php");
+                    header("Location: masuked.php");
                 }else{
                   echo '<div class = "alert alert-danger d-flex justify-content-center"> Username or Password is incorrect! Please try again! </div>';
                 }
