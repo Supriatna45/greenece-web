@@ -35,7 +35,6 @@
 		<h1 class="judul" style="font-family: Commissioner;">green.visual</h1>
 		<ul>
 			<li><a href="index.php" style="margin-right: 20px;">Index</a></li>
-			<li><a href="form.php" style="margin-right: 20px;">Input</a></li>
 		</ul>
 	</div>
 
