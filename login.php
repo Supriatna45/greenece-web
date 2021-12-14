@@ -57,14 +57,15 @@
         ?>
         <form action = "<?php echo htmlentities($_SERVER['PHP_SELF']); ?>" method="post" style="margin-top: -50px;">
             <br>
-                <label for="usernamel" style="color: white;">Username</label>
+            <br>
+                <label for="usernamel" style="color: white; margin-left:350px;">Username</label>
                 <input required type="text" class="form-control" id="usernamel" name="usernamel" style="width:600px; margin: auto;">
             <br>
-                <label for="passwordl" style="color: white;">Password</label>
+                <label for="passwordl" style="color: white; margin-left:350px;">Password</label>
                 <input required type="password" require class="form-control" id="passwordl" name="passwordl" style="width:600px; margin: auto;">
             <br>
             <br>
-            <button style="background-color:#37517e; border-color: #37517e;" type="submit" name="submit" class="btn btn-primary btn-md">Submit</button>
+            <button style="background-color:#37517e; border-color: #37517e; margin-left:350px;" type="submit" name="submit" class="btn btn-primary btn-md">Submit</button>
         </form>
 </body>
 </html>
