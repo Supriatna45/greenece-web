@@ -70,6 +70,6 @@
             <div class = "container ">
             <button style="background-color:#37517e; border-color: #37517e;" type="submit" name="submit" class="btn btn-primary btn-md">Submit</button>
             </div>
-
+        </form>
 </body>
 </html>
