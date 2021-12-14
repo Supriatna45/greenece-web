@@ -13,7 +13,7 @@
 		<h1 class="judul" style="font-family: Commissioner">green.visual</h1>
 		<br>
 		<ul>
-			- <li><a href="login.php">Login</a></li> -
+			- <li><a href="masukadm.php">Login</a></li> -
 		</ul>
 	</div>
 
