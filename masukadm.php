@@ -37,6 +37,7 @@
 		<ul>
 			<li><a href="index.php" style="margin-right: 20px;">Index</a></li>
 			<li><a href="form.php" style="margin-right: 20px;">Input</a></li>
+			<li><a href="logout.php" style="margin-right: 30px;">Logout</a></li>
 		</ul>
 	</div>
 

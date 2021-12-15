@@ -19,6 +19,7 @@
 		<h1 class="judul" style="font-family: Commissioner;">green.visual</h1>
 		<ul>
 			<li><a href="index.php" style="margin-right: 30px;">Index</a></li>
+            <li><a href="logout.php" style="margin-right: 30px;">Logout</a></li>
 			</ul>
 	</div>
 
