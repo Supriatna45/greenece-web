@@ -68,5 +68,13 @@
             <br>
             <button style="background-color:#37517e; border-color: #37517e; margin-left:350px;" type="submit" name="submit" class="btn btn-primary btn-md">Submit</button>
         </form>
+        <br>
+        <div class="row content d-flex justify-content-center">
+          <div class="col-lg-6">
+            <p style="text-align: center; color: white;">
+                Anda editor baru? <a href="register.php">Daftar</a>
+            </p>
+            <br>
+        </div>
 </body>
 </html>

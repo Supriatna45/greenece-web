@@ -21,6 +21,21 @@
                 return false;
             }
         }
+        public function insertEditor($name, $user, $pass){
+            try{
+                $sql = "INSERT INTO editor (nama_ed, username_ed, password_ed) VALUES (:nama_ed, :user_ed, :pass_ed)";
+                $stmt = $this->db->prepare($sql);
+                $stmt->bindparam(':nama_ed', $name);
+                $stmt->bindparam(':user_ed', $user);
+                $stmt->bindparam(':pass_ed', $pass);
+                
+                $stmt->execute();
+                return true;
+            } catch(PDOException $e) {
+                echo $e->getMessage();
+                return false;
+            }
+        }
         public function getServ(){
             try{
             $sql = "SELECT * FROM serv";
